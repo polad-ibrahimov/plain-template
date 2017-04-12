@@ -1,0 +1,83 @@
+#header .row{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#header .navbar{
+    box-shadow: 0 0 32px rgba(0,0,0,0.08);
+}
+
+#header .brand{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: -2px;
+    line-height: .7em;
+    color: #000;
+    transition: all .1s ease-out;
+}
+
+#header .brand:hover{
+    color: #7ed090;
+    text-decoration: none;
+}
+
+#header .nav ul li{
+    display: inline-block;
+}
+
+#header .navbar .nav>li {
+    margin-left: 5px;
+}
+
+#header .navbar .nav>li:first-child {
+    margin-left: 0;
+}
+
+#header .navbar .nav>li.active {
+    border-bottom: 1px solid #aaa;
+}
+
+#header .navbar .nav>li:hover {
+    border-bottom: 1px solid #aaa;
+    
+}
+
+#header .nav a{
+    color:#aaa;
+    text-decoration: none;
+}
+
+#header .nav a:hover{
+    background: transparent;
+}
+
+/*------------*/
+
+#slider{
+    background: url(../img/carousel-macbook-background.png) 0 420px repeat-x;
+    padding-top: 20px;
+}
+
+/*---------------*/
+
+#footer{
+    background: url(../img/footer.png);
+    margin: 30px 0 0 0;
+    padding: 36px 0 10px 0;
+    color: #ccc;
+}
+
+#footer p{
+    font-size: .75em;
+    color: #999;
+    line-height: 1.4em;
+}
+
+#footer h2, h5{
+    color: #fff;
+}
+
+.margin{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
